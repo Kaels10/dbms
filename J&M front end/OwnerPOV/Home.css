@@ -1,0 +1,369 @@
+.home-child,
+.home-item {
+  top: 208px;
+  border-radius: var(--br-11xl);
+  width: 291px;
+  height: 173px;
+}
+.home-child {
+  position: absolute;
+  left: 1050px;
+  background-color: var(--color-gray);
+}
+.home-item {
+  left: 693px;
+}
+.home-child1,
+.home-inner,
+.home-item {
+  position: absolute;
+  background-color: var(--color-gray);
+}
+.home-inner {
+  top: 208px;
+  left: 323px;
+  border-radius: var(--br-11xl);
+  width: 291px;
+  height: 173px;
+}
+.home-child1 {
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 93px;
+}
+.income3 {
+  position: absolute;
+  top: 511px;
+  left: 408px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 323px;
+  height: 70px;
+}
+.home-child2 {
+  position: absolute;
+  top: 20px;
+  left: 326px;
+  width: 53px;
+  height: 53px;
+  object-fit: cover;
+}
+.home-child3,
+.home-child4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 293px;
+}
+.home-child3 {
+  background-color: var(--color-white);
+  height: 1080px;
+}
+.home-child4 {
+  height: 93px;
+}
+.est-20201,
+.jm-baked-goodies2 {
+  position: absolute;
+  top: 9px;
+  left: 30px;
+  font-size: var(--font-size-5xl);
+  display: flex;
+  color: var(--color-gray);
+  align-items: center;
+  justify-content: center;
+  width: 233px;
+  height: 63px;
+}
+.est-20201 {
+  top: 47px;
+  left: 28px;
+  font-size: var(--font-size-mini);
+}
+.home-child5 {
+  position: absolute;
+  top: 119px;
+  left: 58px;
+  border-radius: 50%;
+  width: 178px;
+  height: 178px;
+  object-fit: cover;
+}
+.admin,
+.pending-orders-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.admin {
+  top: 339px;
+  left: 62px;
+  color: var(--color-gray);
+  align-items: center;
+  width: 169px;
+  height: 45px;
+}
+.pending-orders-wrapper {
+  top: 469px;
+  left: 33px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray);
+  width: 228px;
+  height: 71px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+.give-promos {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  height: 45px;
+  flex-shrink: 0;
+}
+.edit-menu-wrapper,
+.give-promos-wrapper {
+  position: absolute;
+  top: 587px;
+  left: 33px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray);
+  width: 228px;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+.edit-menu-wrapper {
+  top: 705px;
+  left: 35px;
+}
+.home-child6,
+.home-child7,
+.home-child8 {
+  position: absolute;
+  top: 208px;
+  left: 323px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  width: 100px;
+  height: 173px;
+}
+.home-child7,
+.home-child8 {
+  left: 693px;
+}
+.home-child8 {
+  left: 1050px;
+  width: 109px;
+}
+.home-child10,
+.home-child11,
+.home-child9 {
+  position: absolute;
+  top: 244px;
+  left: 335px;
+  border-radius: 50%;
+  width: 77px;
+  height: 79px;
+  object-fit: cover;
+}
+.home-child10,
+.home-child11 {
+  top: 245px;
+  left: 705px;
+  width: 78px;
+  height: 78px;
+}
+.home-child11 {
+  top: 244px;
+  left: 1063px;
+  width: 84px;
+  height: 79px;
+}
+.home-child14 {
+  position: absolute;
+  top: 507px;
+  left: 326px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray);
+  width: 450px;
+  height: 400px;
+}
+.income5 {
+  position: absolute;
+  top: 509px;
+  left: 389px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 324px;
+  height: 71px;
+}
+.home-child15 {
+  position: absolute;
+  top: 507px;
+  left: 891px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray);
+  width: 450px;
+  height: 400px;
+}
+.profits {
+  position: absolute;
+  top: 510px;
+  left: 954px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 324px;
+  height: 68px;
+}
+.home-child17 {
+  position: absolute;
+  top: 242px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 293px;
+  height: 782px;
+}
+.pending-orders-container {
+  top: 394px;
+  left: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+.confirmed-orders-wrapper,
+.home-child20,
+.pending-orders-container {
+  position: absolute;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray);
+  width: 228px;
+  height: 71px;
+}
+.confirmed-orders-wrapper {
+  top: 498px;
+  left: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+.home-child20 {
+  top: 602px;
+  left: 35px;
+  cursor: pointer;
+}
+.give-promos1 {
+  position: absolute;
+  top: 615px;
+  left: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  height: 45px;
+}
+.home-child21 {
+  position: absolute;
+  top: 706px;
+  left: 35px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray);
+  width: 228px;
+  height: 71px;
+  cursor: pointer;
+}
+.edit-menu1 {
+  position: absolute;
+  top: 719px;
+  left: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  height: 45px;
+}
+.home-child22 {
+  position: absolute;
+  top: 810px;
+  left: 31px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray);
+  width: 228px;
+  height: 71px;
+  cursor: pointer;
+}
+.transaction-records {
+  position: absolute;
+  top: 823px;
+  left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  height: 45px;
+}
+.home-child23 {
+  position: absolute;
+  top: 914px;
+  left: 89px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray);
+  width: 110px;
+  height: 71px;
+}
+.log-out {
+  position: absolute;
+  top: 927px;
+  left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  height: 45px;
+}
+.home-child30,
+.home-child31 {
+  position: absolute;
+  top: 595px;
+  left: 326px;
+  width: 450px;
+  height: 270.2px;
+  object-fit: cover;
+}
+.home-child31 {
+  left: 891px;
+  height: 262px;
+}
+.home {
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(240, 215, 167, 0),
+      rgba(240, 215, 167, 0.9) 41.79%
+    ),
+    #fff;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-wheat);
+  font-family: var(--font-inter);
+}

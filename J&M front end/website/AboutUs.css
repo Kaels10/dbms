@@ -1,0 +1,361 @@
+.chocolate-chip-brownie-1200x12-icon {
+    position: absolute;
+    top: 35px;
+    left: 1269px;
+    width: 237px;
+    height: 203px;
+    object-fit: cover;
+  }
+  .frame-child2 {
+    position: absolute;
+    top: 3px;
+    left: 181px;
+    border-radius: var(--br-31xl);
+    width: 100px;
+    height: 40px;
+  }
+  .about-us1,
+  .home1,
+  .menu1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 169px;
+    height: 45px;
+  }
+  .about-us1 {
+    top: 1px;
+    left: 147px;
+    color: var(--color-sienna-200);
+  }
+  .home1,
+  .menu1 {
+    top: 0;
+    left: 0;
+  }
+  .menu1 {
+    left: 329px;
+    width: 121px;
+  }
+  .frame-div,
+  .jm-baked-goodies2 {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    width: 450px;
+    height: 46px;
+  }
+  .jm-baked-goodies2 {
+    left: 603px;
+    font-size: var(--font-size-xl);
+    display: flex;
+    color: var(--color-wheat-200);
+    align-items: center;
+    justify-content: center;
+    width: 233px;
+    height: 45px;
+  }
+  .frame-child3,
+  .frame-child4 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .frame-child4 {
+    width: 25px;
+    height: 25px;
+    mix-blend-mode: lighten;
+    cursor: pointer;
+  }
+  .rectangle-container {
+    position: absolute;
+    top: 20px;
+    left: 1335px;
+    width: 86px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-12xl);
+  }
+  .frame-child5 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    border-radius: var(--br-32xl);
+    background-color: var(--color-white);
+    width: 309px;
+    height: 40px;
+  }
+  .search1 {
+    position: absolute;
+    top: 0;
+    left: 17px;
+    display: flex;
+    align-items: center;
+    width: 79px;
+    height: 45px;
+  }
+  .image-21-icon1 {
+    position: absolute;
+    top: 13px;
+    left: 274px;
+    width: 20px;
+    height: 19.4px;
+    object-fit: cover;
+  }
+  .rectangle-parent1 {
+    position: absolute;
+    top: 12px;
+    left: 985px;
+    width: 309px;
+    height: 45px;
+    text-align: left;
+    color: var(--color-darksalmon);
+  }
+  .frame-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray-200);
+    width: 1440px;
+    height: 70px;
+    color: var(--color-white);
+  }
+  .image-removebg-preview-22-icon {
+    position: absolute;
+    top: 818px;
+    left: 0;
+    width: 327px;
+    height: 353px;
+    object-fit: cover;
+  }
+  .about-us-1-child {
+    position: absolute;
+    top: 261px;
+    left: 304px;
+    border-radius: var(--br-xl);
+    background-color: var(--color-sienna-300);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 832px;
+    height: 403px;
+  }
+  .jm-baked-goodies3 {
+    position: absolute;
+    top: 327px;
+    left: 331px;
+    font-size: var(--font-size-13xl);
+    font-weight: 800;
+    color: var(--color-gray-100);
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    width: 777px;
+    height: 273px;
+  }
+  .about-us-1-inner,
+  .about-us-1-item {
+    position: absolute;
+    top: 749px;
+    left: 600px;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-sienna-100);
+    width: 246px;
+    height: 48px;
+  }
+  .about-us-1-inner {
+    left: 863px;
+    width: 249px;
+  }
+  .taguig-city-philippines {
+    top: 757px;
+    left: 653px;
+    font-weight: 500;
+    width: 181px;
+  }
+  .contact-us,
+  .div,
+  .taguig-city-philippines {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+  }
+  .div {
+    top: 757px;
+    left: 927px;
+    font-weight: 500;
+    width: 137px;
+  }
+  .contact-us {
+    top: 692px;
+    left: 598px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    width: 251px;
+  }
+  .image-39-icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    mix-blend-mode: darken;
+  }
+  .jm-baked-goodies4 {
+    position: relative;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152.8px;
+    height: 31.8px;
+    flex-shrink: 0;
+  }
+  .image-39-parent {
+    position: absolute;
+    top: 748.8px;
+    left: 334.7px;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-sienna-100);
+    width: 252.9px;
+    height: 47.9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 19.4501953125px;
+    box-sizing: border-box;
+    gap: 14px;
+  }
+  .image-40-icon {
+    position: absolute;
+    top: 758px;
+    left: 622px;
+    width: 21px;
+    height: 31px;
+    object-fit: cover;
+  }
+  .doublechocolatebananacake-1-icon,
+  .image-41-icon {
+    position: absolute;
+    top: 759px;
+    left: 902px;
+    width: 25px;
+    height: 28px;
+    object-fit: cover;
+  }
+  .doublechocolatebananacake-1-icon {
+    top: 797px;
+    left: 1175px;
+    width: 380px;
+    height: 227px;
+  }
+  .about-us2 {
+    position: absolute;
+    top: 110px;
+    left: 298px;
+    font-size: var(--font-size-51xl);
+    font-family: var(--font-kaushan-script);
+    color: var(--color-sienna-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 844px;
+    height: 105px;
+  }
+  .about-us-1 {
+    position: relative;
+    background: linear-gradient(180deg, rgba(240, 215, 167, 0), #f0d7a7), #fff;
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-mini);
+    color: var(--color-wheat-100);
+    font-family: var(--font-inter);
+  }
+  .group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-31xl);
+    width: 250px;
+    height: 69px;
+  }
+  .log-in {
+    position: absolute;
+    top: 10px;
+    left: 37.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174.2px;
+    height: 49px;
+    -webkit-text-stroke: 1px #f0d7a7;
+  }
+  .vector-container {
+    position: relative;
+    width: 250px;
+    height: 69px;
+  }
+  .or,
+  .or-wrapper {
+    width: 551px;
+    height: 26px;
+  }
+  .or {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .or-wrapper {
+    position: relative;
+    font-size: var(--font-size-mini);
+  }
+  .create-account {
+    position: absolute;
+    top: 10px;
+    left: 37.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174.2px;
+    height: 49px;
+  }
+  .group-div {
+    position: relative;
+    width: 250px;
+    height: 69px;
+    color: var(--color-gray-200);
+  }
+  .log-increate-account-overlay {
+    position: relative;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(#371509, #371509), #fff;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(100px);
+    width: 449px;
+    height: 391px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 198px 69px;
+    box-sizing: border-box;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  

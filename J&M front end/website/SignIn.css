@@ -1,0 +1,183 @@
+.group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gray-200);
+    border: 1px solid var(--color-gray-200);
+    box-sizing: border-box;
+    width: 300px;
+    height: 57px;
+  }
+  .log-in {
+    position: absolute;
+    top: 8px;
+    left: 55.9px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 187.3px;
+    height: 42px;
+  }
+  .rectangle-container {
+    position: absolute;
+    top: 297px;
+    left: 310px;
+    width: 300px;
+    height: 57px;
+    font-size: var(--font-size-xl);
+    color: var(--color-wheat-100);
+  }
+  .sign-in-child,
+  .sign-in-child1,
+  .sign-in-inner,
+  .sign-in-item {
+    position: absolute;
+    left: 178px;
+    border-radius: var(--br-21xl);
+    width: 550px;
+  }
+  .sign-in-child {
+    top: 70px;
+    background-color: #281700;
+    height: 65px;
+  }
+  .sign-in-child1,
+  .sign-in-inner,
+  .sign-in-item {
+    top: 175px;
+    height: 70px;
+  }
+  .sign-in-child1,
+  .sign-in-inner {
+    top: 164px;
+    left: 185px;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .sign-in-child1 {
+    top: 58px;
+  }
+  .phone-email-or {
+    top: 62px;
+    left: 221px;
+    font-weight: 600;
+    text-align: left;
+    width: 410px;
+    height: 61px;
+  }
+  .forgot-password,
+  .password,
+  .phone-email-or {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .password {
+    top: 170px;
+    left: 220px;
+    font-weight: 600;
+    text-align: left;
+    width: 145px;
+    height: 52px;
+  }
+  .forgot-password {
+    top: 0;
+    left: 0;
+    font-weight: 300;
+    justify-content: center;
+    width: 551px;
+    height: 26px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .group-item {
+    position: absolute;
+    top: 20px;
+    left: 212.5px;
+    width: 126px;
+    height: 1px;
+  }
+  .forgot-password-parent {
+    position: absolute;
+    top: 252px;
+    left: 181px;
+    width: 551px;
+    height: 26px;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+  }
+  .dont-have-account {
+    font-weight: 300;
+  }
+  .sign-up {
+    font-weight: 600;
+  }
+  .dont-have-account-container1 {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .dont-have-account-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 551px;
+    height: 26px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .group-inner {
+    position: absolute;
+    top: 22.5px;
+    left: 319.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 57px;
+    height: 1px;
+  }
+  .dont-have-account-sign-up-parent {
+    position: absolute;
+    top: 361px;
+    left: 185px;
+    width: 551px;
+    height: 26px;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+  }
+  .image-removebg-preview-15-icon,
+  .image-removebg-preview-16-icon {
+    position: absolute;
+    top: 0;
+    left: 776px;
+    width: 277px;
+    height: 264px;
+    object-fit: cover;
+  }
+  .image-removebg-preview-16-icon {
+    top: 325px;
+    left: 0;
+    width: 268px;
+    height: 256px;
+  }
+  .sign-in {
+    position: relative;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(
+        180deg,
+        rgba(240, 215, 167, 0.6) 31.25%,
+        rgba(240, 215, 167, 0)
+      ),
+      #fff;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    width: 100%;
+    height: 465px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-300);
+    font-family: var(--font-inter);
+  }
+  

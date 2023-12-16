@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kaushan Script:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="homepage-1">
+      <div class="frame">
+        <div class="best-seller">Best Seller!</div>
+      </div>
+      <div class="frame1">
+        <b class="banana-bread">Banana Bread</b>
+      </div>
+      <div class="frame2">
+        <b class="banana-bread">About Banana Bread...</b>
+      </div>
+      <div class="frame3">
+        <b class="about-revel-bars">About Revel Bars...</b>
+      </div>
+      <div class="frame4">
+        <b class="revel-bars">Revel Bars</b>
+      </div>
+      <img class="image-18-icon" alt="" src="./public/image-18@2x.png" />
+
+      <div class="frame5">
+        <b class="about-apple-pie">About Apple Pie...</b>
+      </div>
+      <div class="frame6">
+        <b class="apple-pie">Apple Pie</b>
+      </div>
+      <img class="image-19-icon" alt="" src="./public/image-19@2x.png" />
+
+      <img class="image-16-icon" alt="" src="./public/image-16@2x.png" />
+
+      <img class="frame-icon" alt="" src="./public/frame.svg" />
+
+      <div class="frame7">
+        <div class="pngtree-chocolate-dripping-mel-parent">
+          <img
+            class="pngtree-chocolate-dripping-mel-icon"
+            alt=""
+            src="./public/pngtreechocolatedrippingmeltedframeliquidpngimage-5086676removebgpreview-1@2x.png"
+          />
+
+          <img
+            class="pngtree-chocolate-dripping-mel-icon1"
+            alt=""
+            src="./public/pngtreechocolatedrippingmeltedframeliquidpngimage-5086676removebgpreview-2@2x.png"
+          />
+
+          <img
+            class="pngtree-chocolate-dripping-mel-icon2"
+            alt=""
+            src="./public/pngtreechocolatedrippingmeltedframeliquidpngimage-5086676removebgpreview-3@2x.png"
+          />
+        </div>
+      </div>
+      <div class="frame8">
+        <div class="frame-child"></div>
+      </div>
+      <div class="frame9">
+        <div class="vector-parent">
+          <img class="frame-item" alt="" src="./public/rectangle-47.svg" />
+
+          <b class="about-us">About Us</b>
+          <b class="home">Home</b>
+          <b class="menu" id="menuText">Menu</b>
+        </div>
+      </div>
+      <div class="frame10">
+        <b class="jm-baked-goodies">J&M BAKED GOODIES</b>
+      </div>
+      <div class="frame11">
+        <div class="rectangle-parent">
+          <img
+            class="frame-inner"
+            alt=""
+            src="./public/rectangle-38@2x.png"
+            id="rectangleIcon"
+          />
+
+          <img
+            class="rectangle-icon"
+            alt=""
+            src="./public/rectangle-39@2x.png"
+            id="rectangleIcon1"
+          />
+        </div>
+      </div>
+      <div class="frame12">
+        <div class="rectangle-group">
+          <div class="rectangle-div"></div>
+          <b class="search">Search...</b>
+          <img class="image-21-icon" alt="" src="./public/image-21@2x.png" />
+        </div>
+      </div>
+      <div class="frame13">
+        <img class="image-7-icon" alt="" src="./public/image-7@2x.png" />
+      </div>
+      <div class="frame14">
+        <div class="jm-baked-goodies-parent">
+          <b class="jm-baked-goodies1">J&M BAKED GOODIES</b>
+          <b class="est-2020">EST 2020</b>
+          <div class="vector-group">
+            <img class="frame-child1" alt="" src="./public/rectangle-6.svg" />
+
+            <b class="order-now">Order Now</b>
+          </div>
+          <b class="we-bake-fresh"
+            >We bake fresh and home-made pastries and accept special orders
+          </b>
+        </div>
+      </div>
+      <img class="homepage-1-child" alt="" src="./public/line-1.svg" />
+    </div>
+
+    <div
+      id="logInCreateAccountOverlay"
+      class="popup-overlay"
+      style="display: none"
+    >
+      <div class="log-increate-account-overlay">
+        <div class="vector-container">
+          <img class="group-child" alt="" src="./public/rectangle-61.svg" />
+
+          <b class="log-in">Log In</b>
+        </div>
+        <div class="or-wrapper">
+          <div class="or">or</div>
+        </div>
+        <div class="group-div">
+          <img class="group-child" alt="" src="./public/rectangle-62.svg" />
+
+          <b class="create-account">Create Account</b>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var menuText = document.getElementById("menuText");
+      if (menuText) {
+        menuText.addEventListener("click", function () {
+          var popup = document.getElementById("logInCreateAccountOverlay");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+
+      var rectangleIcon = document.getElementById("rectangleIcon");
+      if (rectangleIcon) {
+        rectangleIcon.addEventListener("click", function () {
+          var popup = document.getElementById("logInCreateAccountOverlay");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+
+      var rectangleIcon1 = document.getElementById("rectangleIcon1");
+      if (rectangleIcon1) {
+        rectangleIcon1.addEventListener("click", function (e) {
+          window.location.href = "./LogInCreateAccountOverlay.html";
+        });
+      }
+    </script>
+  </body>
+</html>

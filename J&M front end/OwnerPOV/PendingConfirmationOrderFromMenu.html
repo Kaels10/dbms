@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="pending-confirmation-orders">
+      <div class="pending-confirmation-orders-child"></div>
+      <div class="income-wrapper">
+        <b class="income">Income </b>
+      </div>
+      <div class="income-wrapper">
+        <b class="income">Income </b>
+      </div>
+      <img
+        class="pending-confirmation-orders-item"
+        alt=""
+        src="./public/rectangle-55@2x.png"
+      />
+
+      <img
+        class="pending-confirmation-orders-inner"
+        alt=""
+        src="./public/rectangle-57.svg"
+      />
+
+      <b class="jm-baked-goodies">J&M BAKED GOODIES</b>
+      <b class="est-2020">EST. 2020</b>
+      <img class="rectangle-icon" alt="" src="./public/rectangle-64@2x.png" />
+
+      <div class="pending-confirmation-orders-child"></div>
+      <div class="income-wrapper">
+        <b class="income">Income </b>
+      </div>
+      <div class="pending-confirmation-orders-child1"></div>
+      <img
+        class="pending-confirmation-orders-child2"
+        alt=""
+        src="./public/rectangle-55@2x.png"
+      />
+
+      <b class="jm-baked-goodies1">J&M BAKED GOODIES</b>
+      <div class="pending-confirmation-orders-child3"></div>
+      <b class="all-pending-menu">All Pending Menu Orders to Confirm</b>
+      <img
+        class="ellipse-icon"
+        alt=""
+        src="./public/ellipse-10@2x.png"
+        id="ellipseImage"
+      />
+
+      <div class="crinkles-parent">
+        <b class="crinkles">Crinkles</b>
+        <b class="order-name">Order Name</b>
+        <b class="quantity">Quantity</b>
+        <b class="delivery-date">Delivery Date</b>
+        <b class="b">2</b>
+        <b class="b1">11/11/23</b>
+      </div>
+      <img
+        class="pending-confirmation-orders-child4"
+        alt=""
+        src="./public/ellipse-5@2x.png"
+      />
+
+      <div class="pending-confirmation-orders-child5"></div>
+      <b class="customer-name-summary-container">
+        <span class="customer-name-summary-container1">
+          <p class="customer-name">Customer Name</p>
+          <p class="customer-name">&nbsp;</p>
+          <p class="customer-name">
+            Summary of Customer details (phone number, address, etc.)
+          </p>
+          <p class="customer-name">&nbsp;</p>
+          <p class="customer-name">&nbsp;</p>
+          <p class="customer-name">&nbsp;</p>
+        </span>
+      </b>
+      <div class="pending-confirmation-orders-child6"></div>
+      <b class="confirm-order">Confirm Order</b>
+      <div class="pending-confirmation-orders-child7"></div>
+      <b class="decline-order">Decline Order</b>
+      <img
+        class="pending-confirmation-orders-child8"
+        alt=""
+        src="./public/rectangle-81@2x.png"
+      />
+    </div>
+
+    <script>
+      var ellipseImage = document.getElementById("ellipseImage");
+      if (ellipseImage) {
+        ellipseImage.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+    </script>
+  </body>
+</html>
